@@ -2,7 +2,7 @@
 
 This project aims to create a cooperative task scheduler written in C, which is designed to model basic embedded firmware scheduling concepts that are used in industries.
 
-Including:
+- Including:
     - Task queues
     - Timing
     - dispatch
