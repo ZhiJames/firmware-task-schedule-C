@@ -14,7 +14,7 @@ typedef struct{
     uint32_t deadline_miss; //#time it run late
 }task_t; //this is the record for one task
 
-void scheduler_intial(uint32_t startMS); //set start time
+void scheduler_initial(uint32_t startMS); //set start time
 int scheduler_task_add(task_t *task_list, size_t maxN_task, task_t task);
 /*
 task_list - array of task_t, where tasks stores
